@@ -1,0 +1,15 @@
+.btn{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.btn-success{
+    background-color: var(--verde);
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .btn{
+        padding: 1rem 4rem;
+    }
+}
