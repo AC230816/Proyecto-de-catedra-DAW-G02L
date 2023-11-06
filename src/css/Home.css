@@ -1,0 +1,35 @@
+h1{
+    font-size: 3.8rem;
+}
+
+.bg-nav{
+    background-color: var(--azul);
+}
+
+.contenedor{
+    max-width: 120rem;
+}
+
+.navegacion-home{
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacion-home a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: var(--blanco);
+    padding: 0.7rem 1rem;
+    text-align: center;
+}
+
+.navegacion-home a:hover{
+    background-color: var(--azul-oscuro);
+}
+
+@media (min-width: 768px) {
+    .navegacion-home{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

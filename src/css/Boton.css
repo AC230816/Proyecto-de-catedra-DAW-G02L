@@ -1,4 +1,4 @@
-.btn{
+.btn-login{
     padding: 1rem;
     font-size: 2rem;
 }
@@ -9,7 +9,7 @@
 }
 
 @media (min-width: 768px) {
-    .btn{
+    .btn-login{
         padding: 1rem 4rem;
     }
 }
