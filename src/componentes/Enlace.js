@@ -1,14 +1,29 @@
 import '../css/Enlaces.css';
+import React, { useEffect } from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
+import { useHistory } from 'react-router-dom';
 
-//Enlaces
-export function Login({ clase }){
-    const { loginWithRedirect } = useAuth0();
+export function Login({ clase }) {
+  const { loginWithRedirect, isAuthenticated } = useAuth0();
+  const history = useHistory();
 
-    return (
-        <button className={ clase } onClick={ loginWithRedirect }>Iniciar Sesión</button>
-    ); 
+  const handleLogin = () => {
+    loginWithRedirect();
+  };
+
+  useEffect(() => {
+    if (isAuthenticated) {
+      history.push('/control');
+    }
+  }, [isAuthenticated, history]);
+
+  return (
+    <button className={clase} onClick={handleLogin}>
+      Iniciar Sesión
+    </button>
+  );
 }
+
 
 export function Logout({ clase }){
     const { logout } = useAuth0();

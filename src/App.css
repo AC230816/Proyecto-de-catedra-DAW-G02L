@@ -32,21 +32,15 @@ body{
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 3.8rem;
 }
 
 h2{
-    font-size: 3.8rem;
+    font-size: 3.4rem;
 }
 
 h3{
     font-size: 3.2rem;
-}
-
-.container {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Ajusta la altura como desees */
 }
 
 .login{
@@ -55,11 +49,8 @@ h3{
     max-width: 50rem;
     max-height: 60rem;
     border-radius: 1.5rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding: 2rem;
+    flex-direction: column;
 }
 
 .user{
@@ -67,8 +58,14 @@ h3{
     background-color: var(--gris);
     max-width: 11rem;
     max-height: 11rem;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
-.heading-inicio{
+.profile-picture{
+    border-radius: 50%;
+}
+
+.login-heading{
     color: var(--verde);
 }
