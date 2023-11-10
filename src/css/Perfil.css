@@ -1,0 +1,7 @@
+.user{
+    background-color: var(--gris);
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+    border-radius: 50%;
+}

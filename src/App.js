@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './componentes/Home';
 import Login from './componentes/Login';
-import LoginForm from './componentes/LoginForm';
+import logo from './img/logo.png';
 
 function App() {
 
@@ -20,11 +20,11 @@ function App() {
         <Route path="/control">
           <Home />
         </Route>
-        <Route path='/login'>
-          <LoginForm />
-        </Route>
         <Route path="/">
-          <Login />
+          <Login 
+          src={logo}
+          clase={'btn-login'}
+          />
         </Route>
       </Switch>
     </Router>

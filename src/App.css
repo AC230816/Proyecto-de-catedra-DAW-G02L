@@ -35,29 +35,7 @@ h3{
     font-size: 3.2rem;
 }
 
-.login{
-    background-color: var(--gris-claro);
-    margin: 0 auto;
-    max-width: 50rem;
-    max-height: 60rem;
-    border-radius: 1.5rem;
-    padding: 2rem;
-    flex-direction: column;
-}
-
-.user{
-    border-radius: 50%;
-    background-color: var(--gris);
-    max-width: 11rem;
-    max-height: 11rem;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-.profile-picture{
-    border-radius: 50%;
-}
-
-.login-heading{
-    color: var(--verde);
+.btn{
+    font-size: 1.4rem;
+    padding: 0.7rem 1.5rem;
 }

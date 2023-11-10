@@ -24,16 +24,16 @@ function Home() {
                 <div className="contenedor mx-auto">
                     <nav className="navegacion-home text-uppercase">
                         <Link to='/Nosotros'>
-                            <a href='#'>Nosotros</a>
+                            Nosotros
                         </Link>
                         <Link to='/Control'>
-                            <a href='#'>Control</a>
+                            Control
                         </Link>
                         <Link to='/Perfil'>
-                            <a href='#'>Perfil</a>
+                            Perfil
                         </Link>
                         <Link to='/Contacto'>
-                            <a href='#'>Contacto</a>
+                            Contacto
                         </Link>
                     </nav>
                 </div>
