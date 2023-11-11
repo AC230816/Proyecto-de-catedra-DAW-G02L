@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3a5ec54.css",
+    "main.js": "/static/js/main.8bea65e1.js",
+    "static/media/objetivos.jpg": "/static/media/objetivos.e30ff5a8140e53986815.jpg",
+    "static/media/servicios.jpg": "/static/media/servicios.95e17af765a6fb1528a6.jpg",
+    "static/media/logo.png": "/static/media/logo.daa022ac58b55fbb5bb1.png",
+    "static/media/beneficios.avif": "/static/media/beneficios.400b861d8aaf793e1d0f.avif",
+    "index.html": "/index.html",
+    "main.a3a5ec54.css.map": "/static/css/main.a3a5ec54.css.map",
+    "main.8bea65e1.js.map": "/static/js/main.8bea65e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3a5ec54.css",
+    "static/js/main.8bea65e1.js"
+  ]
+}
